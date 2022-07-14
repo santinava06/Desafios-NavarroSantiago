@@ -1,5 +1,5 @@
 
-/* Desafio complementario 2 */
+/* Primera pre-entrega */
 class paquetes{
     constructor(nombre,precio){
         this.nombre = nombre
@@ -30,3 +30,23 @@ switch (choose) {
         alert(precioFinal3);
         break;
 }
+
+
+
+const paquetes1 = [
+    {id: 1, nombre: "Enamorados", precio: 48000},
+    {id: 2, nombre: "Familiar", precio: 64000},
+    {id: 3, nombre: "Presidencial", precio: 98000},
+]
+
+
+const masiva = paquetes1.map(elemento => {
+    return {
+        id: elemento.id,
+        nombre: elemento.nombre,
+        precio: elemento.precio + (elemento.precio * 0.21)
+    }
+})
+console.log(masiva);
+
+//No sabia donde agregar el map, pero si necesitas que lo agregue lo reenvio despues
