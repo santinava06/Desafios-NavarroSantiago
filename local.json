@@ -1,0 +1,23 @@
+[
+    {
+        "id":"001",
+        "nombre":"Presidencial ",
+        "precio":5000,
+        "img":"./multimedia/galeria1.jpg",
+        "desc": "" 
+    },
+    {
+        "id":"002",
+        "nombre":"Enamorados ",
+        "precio":5500,
+        "img":"./multimedia/galeria2.jpg",
+        "desc": "" 
+    },
+    {
+        "id":"003",
+        "nombre":"Familiar ",
+        "precio":6000,
+        "img":"./multimedia/galeria3.jpg",
+        "desc": "" 
+    }
+]

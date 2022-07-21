@@ -1,97 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tucasamiento.com</title>
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tucasamiento.com</title>
 </head>
 
-<body class="bodyPadreGrid">
-    <!-- EL HEADER LO VAMOS A MAQUETAR CON FLEXBOX -->
-    <header>
-        <nav class="botonera">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- SECCIÓN SERVICIOS -->
-    <div class="contenedorImagen">
-        <img class="imagenEncabezado" src="img/imagenEncabezado.jpg" alt="">
-    </div>
+<body id="body">
+<nav>
+  <h1 class="titulo">Tu casamiento</h1>
+  <a class='cart' href="carrito.html">
+    <img class="cartIcon" src="./multimedia/cart.png" alt="foto del carrito" >
+    <span id="cartCounter"></span>
+  </a>
+</nav> 
 
-    <section id="servicios">
+<div id="container">
 
-        <div class="contenedor">
-            <h2>Servicios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque modi saepe rem ex aspernatur quo
-                sed doloribus, possimus itaque!</p>
-        </div>
-    </section>
+  
+</div>
+ 
 
-    <!-- SECCION GALERÍA DE IMÁGENES -->
 
-    <section id="galeria">
-        <div class="contenedor">
-            <h2>Galería de imágenes</h2>
-            <p>Conoce nuestro trabajo, organizamos la fiesta de tus sueños.</p>
-            <div class="imagenContenedor">
-                <img class="imagenGaleria imagenUno" src="img/galeria1.jpg" alt="">
-                <img class="imagenGaleria imagenUno" src="img/galeria2.jpg" alt="">
-                <img class="imagenGaleria imagenUno" src="img/galeria3.jpg" alt="">
-            </div>
-        </div>
-    </section>
 
-    <!-- SECCION CONTACTO -->
-
-    <section id="contacto" class="contenedor">
-        <h2>Deja tu mensaje</h2>
-        <p>En breve un asesor se estará comunicando con vos</p>
-
-        <form class="formulario">
-
-            <div class="contenedorInput">
-                <input class="campo" type="text" placeholder="Ingrese su nombre">
-                <input class="campo" type="text" placeholder="Ingrese su apellido">
-                <input class="campo" type="email" placeholder="Ingrese su email">
-            </div>
-            <textarea class="campo" name="mensaje" id="mensaje" cols="30" rows="10"
-                placeholder="Ingrese su mensaje"></textarea>
-            <input class="boton" type="submit">
-            <input class="boton" type="reset">
-        </form>
-    </section>
-
-    <div class="botonWhatsApp">
-        <img src="img/logoWhatsapp.png" alt="">
-    </div>
-
-    <!-- SECCIÓN FOOTER  -->
-
-    <footer id="footer">
-        <nav>
-            <ul>
-                <li><i class="fab fa-instagram"></i><a href="">Instagram</a></li>
-                <li><i class="fab fa-facebook"></i><a href="">Facebook</a></li>
-                <li><i class="fab fa-twitter"></i><a href="">Twitter</a></li>
-            </ul>
-        </nav>
-        <div>
-            <h4>SITIO CREADO SANTIAGO NAVARRO</h4>
-        </div>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+<script src='./main.js'></script>
 </body>
-
 </html>
